@@ -3,7 +3,7 @@ using System;
 class Exercises
 {
     
-static void WriteWelcome(){
+public void WriteWelcome(){
 
     string name = "", str = "";
 
@@ -15,7 +15,7 @@ static void WriteWelcome(){
     Console.WriteLine(str);
 }
 
-static void OddEvenNumber(int number){
+public static void OddEvenNumber(int number){
 
     string str = "";
 
@@ -31,7 +31,7 @@ static void OddEvenNumber(int number){
     Console.WriteLine(str);
 }
 
-static void EvaluateNumbers(int n1, int n2){
+public static void EvaluateNumbers(int n1, int n2){
 
     string str = "";
 
@@ -47,7 +47,7 @@ static void EvaluateNumbers(int n1, int n2){
     Console.WriteLine(str);
 }
 
-static void ReturnBooleanExpression(){
+public static void ReturnBooleanExpression(){
 
     string str = "";
 
