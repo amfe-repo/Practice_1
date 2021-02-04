@@ -20,6 +20,8 @@ namespace ConsoleApps
             //objExercise.ResultOperation(); //Programa #10
             //objExercise.ResultOperation2(); //Programa #11
             //objExercise.ResultOperation3(); //Programa #12
+            //objExercise.ResultOperation4(); //Programa #13
+            //objExercise.ResultOperation5(); //Programa #14
 
 
         }

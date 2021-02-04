@@ -51,6 +51,7 @@ class Exercises
         string str = "";
 
         str =  $"La expresion es: {23 > 18}";
+
         Console.WriteLine(str);
 
     }
@@ -79,10 +80,10 @@ class Exercises
         string str = "", literal = "";
 
         foreach(float element in califications){
-            prom+= element;
+            prom += element;
         }
 
-        prom/=4;
+        prom /= 4;
 
         if(prom >= 90){
             literal = "A";
@@ -149,7 +150,7 @@ class Exercises
 
     public void ResultOperation3(){
 
-        float division = 0.00f;
+        short division = 0;
         string str = "";
 
         division = 3784 % 16;
@@ -160,7 +161,44 @@ class Exercises
         
     }
 
-    
+    public void ResultOperation4(){
+
+        int sum = 0;
+        string str = "";
+
+        sum = 285 + 1396;
+        
+        str = $"El resultado es: {sum}";
+
+        Console.WriteLine(str);
+        
+    }
+
+    public void ResultOperation5(){
+
+        int sum = 0, n1 = 0, n2 = 0;
+        string str = "";
+
+        try
+        {
+            Console.Write("Escribe el primer numero: ");
+            n1 = int.Parse(Console.ReadLine());
+
+            Console.Write("Escribe el primer numero: ");
+            n2 = int.Parse(Console.ReadLine());
+        }
+        catch
+        {
+            Console.WriteLine("No ha escrito valores numericos validos!!");
+        }
+
+        sum = n1 + n2;
+        
+        str = $"El resultado es: {sum}";
+
+        Console.WriteLine(str);
+        
+    }
 
 
 }
